@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="exit">Exit</string>
+    <string name="welcome_to_the_revision_quiz">Welcome To The Revision Quiz!</string>
+    <string name="start">Start</string>
+</resources>

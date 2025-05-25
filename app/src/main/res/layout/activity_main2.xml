@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/userText1"
+        android:layout_width="272dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="QUESTIONS"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="296dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="120dp"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/btnTrue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC1A1A"
+            android:layout_marginBottom="10dp"
+            android:text="True"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnFalse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#BC1A1A"
+            android:text="False"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BC1A1A"
+            android:text="Next"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
