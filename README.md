@@ -2,6 +2,8 @@
 
 The purpose of this app is to test the knowledge of the user, it is a basic trivia quiz that asks simple questions, recording the score as the user answers and then displaying a message after revealing if the user had done well or not, it aslo allows the user to see the answers to the questions at the very end of the test after they had seen their score 
 
+https://github.com/ST10483639-Nichlas-Fredericks/IMAD5111A2.git
+
 Youtube Video: https://youtu.be/DrF6rjRp4rQ
 
 
