@@ -29,7 +29,10 @@ class MainActivity3 : AppCompatActivity() {
         setContentView(R.layout.activity_main3)
 
 
-        // Initialize all views
+        //Module Manual
+        //Varsity College
+        //Page 30 to 35
+//https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7BA1FF62F0-8E1A-47BC-99BD-CA07AE24427D%7D&file=IMAD5112_MM.docx&action=default&mobileredirect=true
         val resultsView = findViewById<TextView>(R.id.resultsView)
         val userFeedback = findViewById<TextView>(R.id.userFeedback)
         val btnCheck = findViewById<Button>(R.id.btnCheck)

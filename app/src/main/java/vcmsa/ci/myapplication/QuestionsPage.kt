@@ -18,7 +18,10 @@ import androidx.core.view.WindowInsetsCompat
 @SuppressLint("ParcelCreator")
 class MainActivity2 : AppCompatActivity() {
 
-
+ //Module Manual
+       //Varsity College
+       //Page 30 to 35
+////https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7BA1FF62F0-8E1A-47BC-99BD-CA07AE24427D%7D&file=IMAD5112_MM.docx&action=default&mobileredirect=true
     private lateinit var userText1: TextView
     private lateinit var btnTrue: Button
     private lateinit var btnFalse: Button
@@ -29,7 +32,9 @@ class MainActivity2 : AppCompatActivity() {
     private var scorecount = 0
     private var score = 0
     private lateinit var scorepage:Intent
-
+//Module Manual page 53 to 57
+ //https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7BA1FF62F0-8E1A-47BC-99BD-CA07AE24427D%7D&file=IMAD5112_MM.docx&action=default&mobileredirect=true
+   //Varsity College
     companion object {
 
         val questions: Array<String> = arrayOf(
@@ -55,7 +60,10 @@ class MainActivity2 : AppCompatActivity() {
             insets
         }
 
-        // Initialise UI Elements
+        //Module Manual
+        //Varsity College
+        //Page 30 to 35
+//https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7BA1FF62F0-8E1A-47BC-99BD-CA07AE24427D%7D&file=IMAD5112_MM.docx&action=default&mobileredirect=true
         userText1 = findViewById(R.id.userText1)
         btnTrue = findViewById(R.id.btnTrue)
         btnFalse = findViewById(R.id.btnFalse)
